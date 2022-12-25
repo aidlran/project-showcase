@@ -1,0 +1,16 @@
+{
+  "name": "web-project-showcase",
+  "version": "1.0.0-PREVIEW",
+  "description": "Project explorer & showcase for GitHub Pages sites.",
+  "license": "MIT",
+  "private": true,
+  "author": "Aidan Loughran <aidan@loughran.dev> (https://loughran.dev)",
+  "homepage": "https://github.com/aidlran/web-project-showcase#readme",
+  "bugs": "https://github.com/aidlran/web-project-showcase/issues",
+  "repository": "github:aidlran/web-project-showcase",
+  "bin": "./bin/index.mjs",
+  "scripts": {
+    "build": "node ./bin/build.mjs",
+    "init": "node ./bin/init.mjs"
+  }
+}
